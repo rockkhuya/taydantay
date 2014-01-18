@@ -113,7 +113,15 @@ end
 group :test, :development do
   gem 'rspec-rails', '~> 2.14.1'
   gem 'jasmine-rails', '~> 0.4.6'
-  gem 'pry'
+  gem "pry" # rails consoleコマンドの機能を強化
+  gem "pry-doc"
+  gem "pry-rails"
+  gem "pry-debugger"
+
+  gem 'awesome_print'
+  gem 'commands'
+  gem "turn", "0.8.2", require:false # Pretty printed test output
+
 end
 
 group :test do
