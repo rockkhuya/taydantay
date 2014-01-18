@@ -67,6 +67,13 @@ GIT
     font-icons-rails (0.0.5)
       sass-rails (>= 3.1.1)
 
+GIT
+  remote: git://github.com/tommireinikainen/rails-footnotes.git
+  revision: 2f6f38808b052ba7e1b59107acdc6144a3ec448e
+  specs:
+    rails-footnotes (3.7.9)
+      rails (>= 3.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -332,6 +339,8 @@ GEM
       yard (>= 0.8)
     pry-rails (0.3.2)
       pry (>= 0.9.10)
+    quiet_assets (1.0.2)
+      railties (>= 3.1, < 5.0)
     rack (1.5.2)
     rack-protection (1.5.1)
       rack
@@ -440,6 +449,7 @@ GEM
       activemodel (>= 3.0.0)
     spreadsheet (0.9.5)
       ruby-ole (>= 1.0)
+    spring (0.0.11)
     sprockets (2.10.1)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -563,7 +573,9 @@ DEPENDENCIES
   pry-debugger
   pry-doc
   pry-rails
+  quiet_assets
   rails (= 4.0.2)
+  rails-footnotes!
   rails-observers (~> 0.1.2)
   rails_12factor
   ranked-model
@@ -579,6 +591,7 @@ DEPENDENCIES
   sinatra (~> 1.4.3)
   slim-rails
   spectator-validates_email
+  spring (~> 0.0.10)
   state_machine
   thin
   to_xls
