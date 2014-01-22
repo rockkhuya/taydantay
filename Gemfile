@@ -118,7 +118,6 @@ group :test, :development do
   gem "pry-rails"
   gem "pry-debugger"
   gem "spring", "~> 0.0.10"
-  gem 'better_errors'
   gem 'binding_of_caller' # irb in better_errors
   gem 'rails-footnotes', github:'tommireinikainen/rails-footnotes' #本家とは違うが、本家がマージしないので利用
 
